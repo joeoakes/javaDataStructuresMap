@@ -1,5 +1,7 @@
 import java.util.HashMap;
+import java.util.LinkedHashMap;
 import java.util.Map;
+import java.util.TreeMap;
 
 /*
 HashMap does not maintain the order of its elements
@@ -10,7 +12,9 @@ TreeMap sorted by its keys
 public class MapExample {
     public static void main(String[] args) {
         // Create a new HashMap
-        Map<String, Integer> userAges = new HashMap<>();
+        //Map<String, Integer> userAges = new HashMap<>();
+        Map<String, Integer> userAges = new LinkedHashMap<>(); //maintains the order
+        //Map<String, Integer> userAges = new TreeMap<>(); //Sorted
 
         // Add key-value pairs to the HashMap
         userAges.put("Alice", 28);
