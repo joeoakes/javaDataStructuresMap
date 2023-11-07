@@ -19,6 +19,7 @@ public class MapExample {
         // Add key-value pairs to the HashMap
         userAges.put("Alice", 28);
         userAges.put("Bob", 24);
+        userAges.put("Joe", 44);
         userAges.put("Charlie", 33);
 
         // Retrieve the age of 'Bob'
