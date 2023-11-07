@@ -1,6 +1,12 @@
 import java.util.HashMap;
 import java.util.Map;
 
+/*
+HashMap does not maintain the order of its elements
+LinkedHashMap maintains the order of its entries
+TreeMap sorted by its keys
+ */
+
 public class MapExample {
     public static void main(String[] args) {
         // Create a new HashMap
